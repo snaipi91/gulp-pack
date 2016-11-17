@@ -1,0 +1,13 @@
+@import "reset";
+@import "fonts";
+@import "variables";
+@import "mixins";
+@import "global";
+
+@import "partials/layot";
+@import "partials/header";
+@import "partials/_blocks/breadcrumbs/breadcrumbs";
+@import "partials/_blocks/pay-info/pay-info";
+@import "partials/_blocks/navigation/navigation";
+@import "partials/_blocks/pay-bank-card/pay-bank-card";
+@import "partials/footer";

@@ -1,0 +1,34 @@
+// Functions
+/*
+  @param: $size
+  return: rem
+*/
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+// Mixins
+/*
+  @param: $size
+  @color: $color
+  @font: $font
+  @lineHeight: $lineHeight
+*/
+@mixin font-size($size, $font, $color, $lineHeight: 1.2rem) {
+  font-size: calculateRem($size);
+  color: $color;
+  font-family: $font;
+  line-height: $lineHeight;
+}
+
+/*
+  @args...
+*/
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}

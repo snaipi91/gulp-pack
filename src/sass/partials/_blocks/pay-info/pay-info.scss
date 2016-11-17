@@ -1,0 +1,52 @@
+.b-pay-info {
+  position: absolute;
+  width: 411.7px;
+  height: 95.5px;
+  border-radius: 16px;
+  background: $white;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.b-pay-info_pos {
+  top: -16px;
+  left: 50%;
+  margin-left: -205.5px;
+}
+
+.b-pay-info__wrapper {
+  position: relative;
+  margin: 27px 44px;
+}
+
+.b-pay-info__number-order {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 245px;
+  height: 34px;
+  @include font-size(14px, $LatoRegular, $charcoalGrey, 1.2);
+}
+
+.b-pay-info__label-amount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 34px;
+  @include font-size(14px, $LatoRegular, $charcoalGrey, 1.2);
+}
+
+.b-pay-info__name-shop {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  height: 17px;
+  @include font-size(14px, $LatoBold, $lightBlack, 1.2);
+}
+
+.b-pay-info__amount {
+  position: absolute;
+  top: 26px;
+  right: 0;
+  height: 17px;
+  @include font-size(14px, $LatoBold, $lightBlack, 1.2);
+}

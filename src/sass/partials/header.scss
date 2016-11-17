@@ -1,0 +1,26 @@
+.b-header {
+  position: relative;
+  height: 18.7px;
+  box-sizing: content-box;
+}
+
+.b-header_logo-paymo-svg {
+  display: inline-block;
+  width: 160px;
+  height: 29px;
+}
+
+.b-header_distance {
+  margin: 0 80px;
+  padding: 47.5px 0 31px;
+}
+
+.b-header__logo-client_pos {
+  position: absolute;
+  left: 0;
+}
+
+.b-header__logo-paymo_pos {
+  position: absolute;
+  right: 0;
+}

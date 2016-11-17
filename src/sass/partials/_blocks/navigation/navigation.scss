@@ -1,0 +1,35 @@
+.b-navigation {
+  height: 37px;
+}
+
+.b-navigation_distance {
+  margin: 25px 80px 41px;
+}
+
+.b-navigation_align {
+  text-align: center;
+}
+
+.b-navigation__list {
+  font-size: 0;
+}
+
+.b-navigation__item {
+  display: inline-block;
+  padding-right: 37px;
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.b-navigation__link {
+  height: 37px;
+  @include font-size(16px, $LatoRegular, $blueGrey, 1.2);
+  letter-spacing: 0.2px;
+  text-decoration: none;
+}
+
+.b-navigation__link_active {
+  @include font-size(16px, $LatoBold, $black, 1.2);
+}

@@ -1,0 +1,20 @@
+.b-bread-crumbs {
+  position: relative;
+  height: 12px;
+}
+
+.b-bread-crumbs_distance {
+  margin: 0 80px;
+}
+
+.b-bread-crumbs__item {
+  padding-left: 8.1px;
+}
+
+.b-bread-crumbs__link {
+  @include font-size(10px, $LatoRegular, $greenBlue, 1.2);
+  vertical-align: top;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  text-transform: uppercase;
+}

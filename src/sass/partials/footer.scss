@@ -1,0 +1,42 @@
+.b-footer {
+  position: relative;
+  height: 17px;
+  box-sizing: content-box;
+}
+
+.b-footer_distance {
+  padding: 51px 69px;
+}
+
+.b-footer__copyright {
+  position: relative;
+  display: inline-block;
+  width: 103px;
+  vertical-align: top;
+  text-transform: uppercase;
+  @include font-size(14px, $LatoRegular, $charcoalGrey, 1.2);
+}
+
+.b-footer__nav {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.b-footer__nav_distance {
+  padding: 0 2.5289%;
+  font-size: 0;
+}
+
+.b-footer__nav-item {
+  display: inline-block;
+  height: 17px;
+  padding-right: 21px;
+}
+
+.b-footer__nav-link {
+  vertical-align: top;
+  @include font-size(12px, $LatoRegular, $greenBlue, 1.2);
+  text-transform: uppercase;
+  text-decoration: none;
+}
