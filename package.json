@@ -1,5 +1,5 @@
 {
-  "name": "iframe-paymo",
+  "name": "iframe",
   "version": "0.0.0",
   "description": "redirect",
   "main": "gulpfile.js",
