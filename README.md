@@ -1,4 +1,5 @@
 # Сборка для frontend
+![jsperov@gmail.com](https://jscompress.com/img/jscompress-logo-square.png)
 ## Установка
     npm install
 ## Запуск сервера
